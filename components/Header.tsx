@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { MagnifyingGlassIcon, HomeIcon, PlusCircleIcon } from "@heroicons/react/24/solid";
+import { MagnifyingGlassIcon, HomeIcon, PlusCircleIcon } from "@heroicons/react/24/outline";
 
 export default function Header() {
 	return (
