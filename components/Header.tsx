@@ -3,7 +3,7 @@ import { MagnifyingGlassIcon, HomeIcon, PlusCircleIcon } from "@heroicons/react/
 
 export default function Header() {
 	return (
-		<header className="flex flex-row justify-between items-center py-4 px-2 md:px-30 lg:px-60">
+		<header className="flex flex-row justify-between items-center py-4 px-2 md:px-30 lg:px-60 shadow-sm sticky top-0 bg-white">
 			<div className="w-1/6 md:w-1/3 flex justify-center md:justify-start items-center">
 				<Image
 					src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"
