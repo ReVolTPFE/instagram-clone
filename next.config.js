@@ -5,6 +5,7 @@ const nextConfig = {
     domains: [
       'upload.wikimedia.org',
       'lh3.googleusercontent.com',
+      'i.pravatar.cc',
     ],
   },
   swcMinify: true,
