@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { MagnifyingGlassIcon, HomeIcon, PlusCircleIcon } from "@heroicons/react/24/outline";
 
-export default function Header() {
+export default function Header(): JSX.Element {
 	return (
 		<header className="flex flex-row justify-between items-center py-4 px-2 md:px-30 lg:px-60 shadow-sm sticky top-0 bg-white">
 			<div className="w-1/6 md:w-1/3 flex justify-center md:justify-start items-center">

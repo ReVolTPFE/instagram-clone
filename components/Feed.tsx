@@ -2,7 +2,7 @@ import MiniProfile from "./MiniProfile";
 import Posts from "./Posts";
 import Stories from "./Stories";
 
-export default function Feed() {
+export default function Feed(): JSX.Element {
 	return (
 		<main className="flex flex-row mx-4 md:mx-32">
 			<section className="w-full md:w-3/5 flex flex-col">

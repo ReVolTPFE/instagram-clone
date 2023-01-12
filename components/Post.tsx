@@ -1,7 +1,8 @@
 import { EllipsisHorizontalIcon } from "@heroicons/react/24/solid";
 import { HeartIcon, ChatBubbleOvalLeftEllipsisIcon, BookmarkIcon } from "@heroicons/react/24/outline";
+import { PostInfos } from "../src/types/posts.types";
 
-export default function Post({id, username, userImg, img, caption}) {
+export default function Post({id, username, userImg, img, caption}: PostInfos): JSX.Element {
 	return (
 		<div className="bg-white mb-6 border border-gray-200 rounded-sm">
 			<div className="flex justify-between items-center p-4">
